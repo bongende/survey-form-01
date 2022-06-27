@@ -1,0 +1,73 @@
+body {
+  display: block ;
+  background-color : #484848;
+  /*background-image : url(https://i0.wp.com/lincoln.edu.ng/wp-content/uploads/2021/06/se.jpg) ; */
+  color : #E9E9E9 ;
+  text-align: center;
+  margin : 0; 
+}
+
+h1 {
+  font-family : Prototype, roboto;
+  font-size: 45px;
+}
+p {
+  font-family : Rod, roboto;
+  font-size : 20px;
+  max-width: 600px ;
+  margin: auto ;
+}
+
+form {
+  max-width : 600px ;
+  background-color : #E9E9E9;
+  color : #444444;
+  font-family : Segoe UI Historic, sans-serif; 
+  font-size : 20px ;
+  margin : 20px auto;
+  border-radius : 30px ;
+  box-shadow : 0 0 99px 0 rgba(0, 0, 0, 0.55);
+  padding: 35px 0;
+}
+form p {
+  font-family: Segoe UI Historic, sans-serif ;
+  font-size : 20px;
+}
+
+fieldset {
+  border : none;
+  margin: 0 45px;
+}
+label {
+  text-align: left ;
+}
+
+input {
+  display: block;
+  width : 500px ;
+  height : 45px ;
+  margin: 10px 0;
+  border: none;
+  border-radius : 6px;
+  padding : 0 25px ;
+  font-size : 15px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: 15px ;
+  display : flex ;
+}
+ 
+input[type="submit"] {
+  background-color : #4F4F4F
+}
+select {
+  display: block;
+  width : 500px ;
+  height : 45px ;
+  margin: 10px 0 ;
+  border: none;
+  border-radius : 6px;
+  padding : 0 25px ;
+  font-size : 15px;
+}
